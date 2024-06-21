@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    padding-bottom: 60px; 
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    text-align: center;
+    border-width: 0.5px; 
+    border-style: solid;
+    border-color: #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product img.product-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: relative; 
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box; 
+    max-height: 60px; 
+}
+
+footer p {
+    margin: 0;
+}
